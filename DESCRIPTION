@@ -1,0 +1,18 @@
+Package: Linear
+Type: Package
+Title: Linear Regression Package
+Version: 0.1.0
+Author: Chris Woodard
+Maintainer: Chris Woodard <sciprojguy@gmail.com>
+Description: This package wraps lm() to make it fit a magrittr pipe (%>%).
+  It collects the output of cor() and coef() to produce a list result.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests:
+    dplyr,
+    knitr,
+    rmarkdown,
+    testthat (>= 2.1.0)
+VignetteBuilder: knitr
